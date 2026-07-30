@@ -1,0 +1,17 @@
+/* Custom Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom font size for small label uppercase text */
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+/* Error validation styling override for Bootstrap controls */
+.form-control.is-invalid, 
+.form-select.is-invalid {
+    border-color: #ef4444;
+}
