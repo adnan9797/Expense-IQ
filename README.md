@@ -39,18 +39,6 @@ Saving Data: The object is converted to a string using JSON.stringify() and push
 
 Displaying History: On the history page, JavaScript reads that array, parses it back into objects using JSON.parse(), applies any active category or type filters, and dynamically builds the table rows.
 
-# How to Run It Locally
-You don't need npm, Node.js, or any build setup to run this!
-
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/ExpenseIQ.git
-Open the project folder:
-
-Bash
-cd ExpenseIQ
-Double-click index.html (or open it with VS Code's Live Server extension) to launch the app in your browser.
 
 # Future Improvements
 [ ] Add CSV export so users can download their data for Excel/Google Sheets.
