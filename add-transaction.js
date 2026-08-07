@@ -62,7 +62,7 @@ function renderTransaction() {
 
         row.innerHTML = `
             <td>${transaction.title}</td>
-            <td class="amount">₹${transaction.amount}</td>
+             <td class="amount">₹${Number(transaction.amount).toFixed(2)}</td>
             <td>${transaction.category}</td>
             <td>${transaction.date}</td>
             <td>
